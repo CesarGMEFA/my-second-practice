@@ -28,6 +28,9 @@ html {
     padding: 4.5rem;
     padding-right: 5rem;
 }
+.box .box_green {
+    padding-right: 6rem;
+}
 
 .box .box_orange {
     background-color: var(--Primary-Bright_orange);
@@ -95,6 +98,19 @@ html {
 }
 .box .box_green > button {
     color: var(--Primary-Very_dark_cyan);
+}
+.box .box_section > button:hover {
+    color: white;
+    border: solid 2px white;
+}
+.box .box_orange > button:hover {
+    background-color: var(--Primary-Bright_orange);
+}
+.box .box_blue > button:hover {
+    background-color: var(--Primary-Dark_cyan);
+}
+.box .box_green > button:hover {
+    background-color: var(--Primary-Very_dark_cyan);
 }
 
 .attribution {
